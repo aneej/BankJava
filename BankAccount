@@ -3,6 +3,7 @@ package ca.uwo.csd.cs2212.Aneej;
 public class BankAccount {
 
   private double balance;
+  public Address address ;
 
   public BankAccount(double balance) {
     this.balance = balance;
